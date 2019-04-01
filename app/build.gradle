@@ -31,7 +31,7 @@ dependencies {
     compile files('libs/cw-deviceapi20180918.jar')
 
     // Leak Canary.
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.3'
-    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
-    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.6.3'
+    debugCompilen 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.3'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.3'
 }
